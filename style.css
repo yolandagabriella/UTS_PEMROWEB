@@ -1,4 +1,4 @@
-/* 🌿 Tampilan Umum */
+
 body {
   margin: 0;
   font-family: "Poppins", "Segoe UI", sans-serif;
@@ -7,7 +7,7 @@ body {
   transition: background 0.5s ease;
 }
 
-/* 🌱 Header */
+
 header {
   background: #a8e6a2;
   color: #2e7d32;
@@ -23,7 +23,7 @@ header h1 {
   letter-spacing: 1px;
 }
 
-/* 🌸 Banner Sapaan */
+
 .banner-sapaan {
   max-width: 800px;
   margin: 8px auto 10px;
@@ -45,7 +45,7 @@ header h1 {
   transform: scale(1.05);
 }
 
-/* 🍃 Navigasi */
+
 nav {
   margin: 10px 0;
 }
@@ -70,7 +70,7 @@ nav {
   transform: scale(1.05);
 }
 
-/* 🌼 Konten Halaman */
+
 main {
   padding: 30px;
 }
@@ -99,7 +99,7 @@ h2 {
   margin-bottom: 20px;
 }
 
-/* 🌻 Tabel Pendidikan */
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -122,7 +122,7 @@ tr:nth-child(even) {
   background: #e8f5e9;
 }
 
-/* 🌷 Footer */
+
 footer {
   background: #a8e6a2;
   color: #2e7d32;
@@ -133,7 +133,7 @@ footer {
   font-weight: 500;
 }
 
-/* 🌼 Animasi */
+
 .fade-in {
   animation: fadeInScale 0.6s ease;
 }
