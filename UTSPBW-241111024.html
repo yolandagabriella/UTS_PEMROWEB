@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UTS PBW - 241111024</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>website saya</h1>
+      <div id="banner-sapaan" class="banner-sapaan" aria-live="polite">
+        <span id="greeting">Selamat datang, Pengunjung!</span>
+      </div>
+
+      <nav>
+        <button
+          class="nav-btn active"
+          onclick="tampilkanHalaman('home', event)"
+        >
+          Home
+        </button>
+        <button class="nav-btn" onclick="tampilkanHalaman('about', event)">
+          About
+        </button>
+        <button class="nav-btn" onclick="tampilkanHalaman('pendidikan', event)">
+          Riwayat Pendidikan
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="halaman aktif">
+        <h2>Home</h2>
+        <p>
+          Pernah nggak sih kamu kepikiran hal-hal aneh kayak, “Kalau semut bisa
+          kerja sama tanpa drama, kenapa manusia nggak bisa?” atau “Kenapa
+          makanan yang enak itu selalu bikin dosa kolesterol?” Nah, kalau iya,
+          berarti kamu udah nyasar ke tempat yang tepat. Blog ini adalah tempat
+          segala hal tanpa arah tapi penuh makna (kadang), di mana setiap
+          pikiran absurd punya hak untuk hidup. Di sini, kamu bakal nemuin
+          tulisan-tulisan yang nggak punya genre tetap — bisa tentang kucing
+          yang kelakuannya mirip manusia, renungan jam 3 pagi tentang nasi
+          goreng, sampai teori konspirasi kenapa remote TV selalu hilang pas
+          lagi butuh.
+        </p>
+        <p>
+          Tujuan blog ini simpel: menyelamatkan ide-ide random sebelum otak
+          menolak update dan lupa total. Nggak ada topik berat di sini —
+          kalaupun ada, pasti dibumbui humor, karena hidup udah cukup serius
+          tanpa harus nambahin paragraf yang bikin kening berkerut. Jadi, kalau
+          kamu lagi bosan, bingung, atau butuh hiburan yang nggak jelas tapi
+          menenangkan, santai aja. Di sini kamu bisa membaca hal-hal yang bahkan
+          penulisnya sendiri nggak tahu kenapa dia tulis. Anggap aja ini seperti
+          jalan-jalan di pikiran seseorang yang nggak punya Google Maps —
+          tersesat, tapi seru!
+        </p>
+      </section>
+
+      <!-- Halaman About -->
+      <section id="about" class="halaman">
+        <h2>About</h2>
+        <p>
+          Halo! Aku Yolanda Gabriella, mahasiswa Universitas Widyatama, dan ini
+          adalah markas resmi semua hal random yang kepikiran di kepalaku. Kalau
+          kamu nyasar ke sini, berarti kamu siap untuk menyusuri ide-ide absurd,
+          lucu, dan kadang nggak masuk akal — persis kayak hidupku sehari-hari.
+          Di blog ini, kamu bakal menemukan segala hal: dari kucing yang
+          kelakuannya mirip manusia, snack paling aneh yang pernah dicobain,
+          sampai teori-teori random yang bikin kamu mikir, “Seriusan ini
+          kepikiran orang?” Semua tulisan di sini lahir dari kebiasaan aku yang
+          suka banget hal-hal random, entah itu di jam kuliah, di kosan, atau
+          pas lagi nunggu ojek online. Tujuan blog ini sederhana: bikin kamu
+          senyum, ngakak, atau setidaknya mikir, “Eh, ternyata ada orang lain
+          kayak aku juga.” Kalau kamu ketawa — bonus. Kalau nggak, ya minimal
+          kamu udah olahraga otot wajah karena menahan senyum. Jadi, santai aja.
+          Ambil cemilan, rebahan, dan selamat datang di dunia randomku! Di sini,
+          logika kadang cuti, tapi tawa dijamin hadir.
+        </p>
+      </section>
+
+      <!-- Halaman Pendidikan -->
+      <section id="pendidikan" class="halaman">
+        <h2>Riwayat Pendidikan</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Tingkat</th>
+              <th>Nama Sekolah</th>
+              <th>Tahun Lulus</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>SD</td>
+              <td>SDN YADIKA</td>
+              <td>2018</td>
+            </tr>
+            <tr>
+              <td>SMP</td>
+              <td>SMPN YADIKA</td>
+              <td>2021</td>
+            </tr>
+            <tr>
+              <td>SMA</td>
+              <td>SMA 1 GAMPRAH</td>
+              <td>2024</td>
+            </tr>
+            <tr>
+              <td>Perguruan Tinggi</td>
+              <td>Universitas Widyatama</td>
+              <td>Ongoing</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 website resmi yolandar - 241111024</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
